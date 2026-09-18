@@ -1,0 +1,23 @@
+/** German dictionary for the `feedback` namespace. */
+export const de: Record<string, string> = {
+  'action.like': 'Gute Antwort',
+  'action.likeActive': 'Bewertung entfernen',
+  'action.dislike': 'Schlechte Antwort',
+  'action.dislikeActive': 'Bewertung entfernen',
+  'dialog.title': 'Feedback senden',
+  'dialog.categories': 'Feedback-Kategorie',
+  'dialog.detail': 'Feedback-Details',
+  'dialog.hint': 'Details hinzufügen, um uns zu verbessern. Die Einsendung umfasst das aktuelle Gesprächslog.',
+  'category.task-result': 'Aufgabenergebnis',
+  'category.instruction-following': 'Verstehen und Befolgen von Anweisungen',
+  'category.product-interaction': 'Funktionen und Interaktion',
+  'category.service-stability': 'Stabilität und Geschwindigkeit',
+  'category.resource-cost': 'Ressourcennutzung und Kosten',
+  'category.security-privacy-permission': 'Sicherheit, Privatsphäre und Berechtigungen',
+  'category.other': 'Sonstiges',
+  'toast.recorded': 'Danke für das Feedback',
+  'error.conflict': 'Dieses Feedback wurde woanders geändert; der neueste Stand wird angezeigt',
+  'error.load': 'Feedback konnte nicht geladen werden',
+  'error.generic': 'Feedback konnte nicht gespeichert werden',
+  'error.noteTooLarge': 'Die Beschreibung ist zu lang; bitte kürzen und erneut senden',
+}

@@ -1,0 +1,20 @@
+/** German dictionary for the `permission.access` namespace (the current-session popup gate). */
+export const de: Record<string, string> = {
+  'mode': 'Zugriffsmodus, aktuell: {name}',
+  'close': 'Schließen',
+  'preset.readOnly': 'Nur Lesen',
+  'preset.workspaceWrite': 'Workspace-Schreiben',
+  'preset.fullAccess': 'Vollzugriff',
+  'confirm.title': 'Vollzugriff aktivieren?',
+  'confirm.description': 'Vollzugriff reduziert Bestätigungsschritte und erlaubt dem Agent, mehr Aktionen direkt auszuführen, darunter sensible Operationen, Dateiänderungen oder externe Befehle. Nur verwenden, wenn der aktuellen Aufgabe vertraut wird.',
+  'confirm.acknowledge': 'Die Risiken sind bekannt und sollen akzeptiert werden',
+  'confirm.cancel': 'Abbrechen',
+  'confirm.enable': 'Vollzugriff aktivieren',
+  'auto.label': 'Auto-Review',
+  'auto.badge': 'EXP',
+  'auto.description': 'Ausführung ohne Sandbox nach einer experimentellen Überprüfung jeder nativen Tool-Ausführung und jeder inneren PTC-Ausführung durch dasselbe Modell.',
+  'auto.confirm.title': 'Auto-Review aktivieren (experimentell)?',
+  'auto.confirm.description': 'Auto-Review läuft ohne Sandbox. Vor jeder nativen Tool-Ausführung und jeder inneren PTC-Ausführung prüft dasselbe Modell wie der aktuelle Agent, ob sie erlaubt wird. Diese Funktion ist experimentell, kann Aktionen fälschlich erlauben oder ablehnen und verbraucht zusätzliche Token.',
+  'auto.confirm.acknowledge': 'Diese Risiken sind bekannt und sollen akzeptiert werden',
+  'auto.confirm.enable': 'Auto-Review aktivieren',
+}

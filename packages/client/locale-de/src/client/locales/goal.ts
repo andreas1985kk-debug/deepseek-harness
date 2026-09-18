@@ -1,0 +1,15 @@
+/** German dictionary for the `goal` namespace. */
+export const de: Record<string, string> = {
+  'phase.active': 'Aktives Ziel',
+  'phase.active.disarmed': 'Inaktives Ziel',
+  'phase.paused': 'Pausiertes Ziel',
+  'phase.blocked': 'Blockiertes Ziel',
+  'objective.aria': 'Ziel',
+  'commandInput.aria': 'Befehlseingabe',
+  'action.save': 'Ziel speichern',
+  'action.cancel': 'Bearbeitung abbrechen',
+  'action.pause': 'Ziel pausieren',
+  'action.resume': 'Ziel fortsetzen',
+  'action.edit': 'Ziel bearbeiten',
+  'action.clear': 'Ziel löschen',
+}

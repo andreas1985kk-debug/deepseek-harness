@@ -1,0 +1,22 @@
+/** German dictionary for the `sidebarDocumentPreview` namespace. */
+export const de: Record<string, string> = {
+  'loading': 'Wird gelesen…',
+  'loadMore': 'Mehr laden',
+  'changed': 'Die Datei hat sich geändert, der vorherige Inhalt wird angezeigt.',
+  'reloadNow': 'Neu laden',
+  'reload': 'Datei erneut lesen',
+  'wrap.enable': 'Zeilenumbruch aktivieren',
+  'wrap.disable': 'Zeilenumbruch deaktivieren',
+  'wrap.aria': 'Zeilenumbruch',
+  'openWith': 'Öffnen mit',
+  'viewer.text': 'Klartext',
+  'resourceUnavailable': 'Der Datei-Ressourcendienst ist nicht verfügbar.',
+  'rendererUnavailable': 'Die {name}-Vorschau ist nicht verfügbar.',
+  'unsupportedFile': 'Für diesen Dateityp ist noch keine Vorschau verfügbar.',
+  'error.notFound': 'Datei nicht gefunden. Sie wurde möglicherweise verschoben oder gelöscht.',
+  'error.tooLarge': 'Diese Seite überschreitet das {limit}-Limit und kann nicht gelesen werden.',
+  'error.notText': 'Für diesen Dateityp ist noch keine Vorschau verfügbar.',
+  'error.notRegularFile': 'Keine reguläre Datei, nichts anzuzeigen.',
+  'error.unavailable': 'Lesen fehlgeschlagen: {message}',
+  'retry': 'Erneut versuchen',
+}

@@ -1,0 +1,21 @@
+/** German dictionary for the `schedule.catalog` namespace. */
+export const de: Record<string, string> = {
+  'trigger.one': '{count} Erinnerung',
+  'trigger.other': '{count} Erinnerungen',
+  'list.aria': 'Aktive Erinnerungen',
+  'status.scheduled': 'Geplant',
+  'status.overdue': 'Überfällig',
+  'frequency.once': 'Einmal',
+  'frequency.every': 'Alle {value} {unit}',
+  'unit.day.one': 'Tag',
+  'unit.day.other': 'Tage',
+  'unit.hour.one': 'Stunde',
+  'unit.hour.other': 'Stunden',
+  'unit.minute.one': 'Minute',
+  'unit.minute.other': 'Minuten',
+  'unit.second.one': 'Sekunde',
+  'unit.second.other': 'Sekunden',
+  'relative.now': 'Jetzt fällig',
+  'relative.future': 'in {value} {unit}',
+  'relative.overdue': '{value} {unit} überfällig',
+}
