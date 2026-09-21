@@ -7,17 +7,19 @@
   background: var(--dsw-alias-bg-base);
 }
 
-/* 76px with its rule: the height of the Sidebar's tab strip and header row
-   (ui-dockkit `.tabStrip` 38px + the pane header's 38px), so the two rules
-   meet at the column edge. The rows add up to it — 10px top inset, the 30px
-   title row, the tab strip's 10px margin, a 16px tab line, and its 9px bottom
-   inset — so no row below may grow past its figure. */
+/* Header height tracks the Sidebar's tab strip and header row
+   (ui-dockkit `.tabStrip` 38px + the pane header's 38px): the rows add up to
+   it — 10px top inset, the 30px title row, the tab strip's 10px margin, a 16px
+   tab line, and its 9px bottom inset — so no row below may grow past its
+   figure. The header carries no rule or band, so the rows, not a fixed
+   min-height, hold the alignment. */
+/* Strip-free header: no background, no rule, no fixed band. The breadcrumbs,
+   actions, utilities, corner seat, and tabs float bare over the scrollport —
+   the words and icons carry the affordance, the chrome does not. */
 .header {
   flex: none;
   box-sizing: border-box;
-  min-height: 76px;
   padding: 10px 28px 0 20px;
-  border-bottom: 0.5px solid var(--dsw-alias-border-l3);
 }
 
 /* Blank Sessions retain navigation controls without conversation title or tabs. */
@@ -175,8 +177,8 @@
 }
 
 /* figma .Tab 34:11442: 13/16 text (figma wt510, rendered 500). The 2px bar
-   reaches 1px past the tab's box to end flush with the header's bottom edge,
-   sitting over the rule. */
+   reaches 1px past the tab's box, marking the selected tab over bare
+   background now that the header carries no rule. */
 .tab {
   position: relative;
   padding: 0 0 9px;
